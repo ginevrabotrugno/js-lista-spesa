@@ -87,3 +87,7 @@ input {
     border: 5px solid var(--purple);
     min-height: 400px;
 }
+
+.list {
+    color: var(--purple) ;
+}
