@@ -44,26 +44,3 @@ button.addEventListener('click',
 
     
 )
-
-
-
-// // seleziono la lista in html
-// const ul = document.querySelector(".list");
-// // scorro gli elementi della lista (while)
-// // dichiaro la variabile indice fuori dal ciclo 
-// let i = 0;
-// while (i < 20) {
-//     const shoppingItem = shoppingList[i];
-
-//     i++
-
-//     console.log(shoppingItem);
-
-//     // creo l'elemento da aggiungere in html
-//     let li = `<li> ${shoppingItem} </li>`;
-
-//     // aggiungo ogni elemento alla lista in html
-//     ul.innerHTML += li;
-// }
-
-

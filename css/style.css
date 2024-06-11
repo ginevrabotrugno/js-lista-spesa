@@ -27,7 +27,6 @@ header {
     color: white;
     text-align: center;
     line-height: 60px;
-    vertical-align: middle;
     position: fixed;
     top: 0;
     left: 0;
@@ -43,18 +42,15 @@ header {
 .card {
     border-radius: 20px;
     background-color: var(--pink);
-    color: white;
     padding: 20px;
-
 }
 
 form {
     width: 80%;
-    margin: 0 auto;
+    margin: 40px auto;
 }
 
 input {
-    display: block;
     width: 100%;
     font-family: inherit;
     color: var(--purple);
@@ -67,7 +63,6 @@ input {
 
 .input_item {
     font-size: 20px;
-
 }
 
 .button {
@@ -77,17 +72,22 @@ input {
     background-color: var(--purple);
     color: white;
     padding: 15px 40px;
-    border-radius: 20px;
 }
 
 .card.small {
-    width: 80%;
+    width: 60%;
     background-color: white;
     margin: 40px auto;
     border: 5px solid var(--purple);
     min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
 .list {
     color: var(--purple) ;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 1.5;
 }

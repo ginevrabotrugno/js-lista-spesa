@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- my style -->
     <link rel="stylesheet" href="css/style.css">
     <title>Lista della spesa</title>
 </head>
 <body>
     
+    <!-- header -->
     <header>
             <h1>Lista della spesa</h1>
     </header>
 
-    <main>
 
+    <!-- contenuto principale -->
+    <main>
 
         <!-- input di inserimento list-item  -->
         <div class="container">
@@ -24,33 +30,29 @@
             <div class="card">
 
                 <form action="#">
+
+                    <!-- input di inserimento list-item  -->
                     <input class="input_item" type="text" placeholder="Inserisci gli articoli da aggiungere">
-                    
-                    
                     <input type="submit" value="AGGIUNGI" class="button">
 
                 </form>
 
                 <div class="card small">
-                    
-                    <!-- lista generata -->
-                    <div class="list_box">
 
-                        <ul class="list">
-
-                        </ul>
-
-                    </div>
+                    <ul class="list">
+                        <!-- lista generata js -->
+                    </ul>
 
                 </div>
     
             </div>
 
-
         </div>
 
     </main>
 
+
+    <!-- my script -->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
