@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #325d7f;
+    --orange: #f9b294;
+    --purple: #6d5c7e;
+    --pink: #f2727f;
+    --dkpink: #c06c86;
+    background-color: var(--orange);
+}
